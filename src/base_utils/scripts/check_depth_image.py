@@ -27,9 +27,7 @@ if __name__ == "__main__":
         "/home/red0orange/github_projects/CenterSnap/nocs_test_subset/Real/test/scene_1/0006_depth.png"
     )
 
-    image = load_depth(
-        "/home/red0orange/github_projects/CenterSnap/nocs_test_subset/Real/my_real/1_depth.png"
-    )
+    image = load_depth("/home/red0orange/data/CenterSnap_test_data/1_depth.png")
 
     cv2.imshow("image", image)
     cv2.waitKey(0)
